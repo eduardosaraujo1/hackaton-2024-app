@@ -1,0 +1,36 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.bottom-navbar {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 6px 0;
+}
+
+.bottom-navbar {
+    background-color: black;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: min-content;
+    text-align: center;
+    flex: 1;
+}
+
+.icon svg {
+    width: 32px;
+    color: white;
+}
+
+.icon span {
+    color: white;
+}
