@@ -7,13 +7,19 @@
 
 .form {
     padding: 0 2rem;
+    margin: 0 1rem;
 }
 
 .form {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     height: 100%;
+    gap: .375rem;
+}
+
+.form {
+    border-radius: 20px;
+    background: #F6F6F6;
 }
 
 .form img.upload {
@@ -21,7 +27,18 @@
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
+.comentario {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 4px
+}
+
 textarea {
     flex: 1;
+    margin-bottom: 1rem;
+}
+
+button {
     margin-bottom: 1rem;
 }
