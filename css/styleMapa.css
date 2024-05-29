@@ -1,0 +1,9 @@
+@import url('./style.css');
+@import url('./styleNav.css');
+body {
+    height: 100vh;
+}
+
+#map {
+    height: 100%;
+}
