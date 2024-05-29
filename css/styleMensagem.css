@@ -1,2 +1,27 @@
 @import url('./style.css');
 @import url('./styleNav.css');
+
+:root {
+    font-family: 'DM Sans';
+}
+
+.form {
+    padding: 0 2rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.form img.upload {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+textarea {
+    flex: 1;
+    margin-bottom: 1rem;
+}

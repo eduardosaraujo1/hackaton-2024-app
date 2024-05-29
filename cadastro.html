@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/styleCadastro.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="top-row">
+                <div class="back-arrow">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="32px"
+                        viewBox="0 -960 960 960"
+                        width="32px"
+                        fill="currentColor"
+                    >
+                        <path
+                            d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"
+                        />
+                    </svg>
+                </div>
+                <span class="headerf">Cadastro</span>
+            </div>
+            <img class="imagem" src="./assets/cadastro/user.png" alt="" />
+            <div class="form">
+                Nome: <br />
+                <input type="text" /> <br />
+                CPF: <br />
+                <input type="text" /> <br />
+                Senha: <br />
+                <input type="text" /> <br />
+                Repetir Senha: <br />
+                <input type="text" /> <br />
+                <div class="fix-checkbox">
+                    <input type="checkbox" />
+                    Concordo com as políticas de privacidade e termos de uso do
+                    aplicativo.
+                </div>
+
+                <button
+                    style="
+                        padding: 0.375rem 0.75rem;
+                        width: fit-content;
+                        align-self: center;
+                    "
+                    onclick="window.location.href = './index.html'"
+                >
+                    Enviar
+                </button>
+            </div>
+        </div>
+    </body>
+</html>

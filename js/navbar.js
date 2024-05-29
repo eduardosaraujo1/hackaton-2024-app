@@ -27,12 +27,12 @@ function addEventButtons() {
         });
     }
     const notifications = document.querySelector('.notifications');
-    notifications.addEventListener('click', () => {
+    notifications?.addEventListener('click', () => {
         window.location.href = `./notificacoes.html`;
     });
 
     const ntfctnBckArrw = document.querySelector('.notification-back-arrow');
-    ntfctnBckArrw.addEventListener('click', () => {
+    ntfctnBckArrw?.addEventListener('click', () => {
         window.location.href = `./index.html`;
     });
 }

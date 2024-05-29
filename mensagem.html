@@ -8,7 +8,7 @@
     </head>
     <body>
         <div class="header">
-            <span class="header-text">Início</span>
+            <span class="header-text">Denunciar problema</span>
             <div class="notifications">
                 <button class="notification-btn">
                     <svg
@@ -23,7 +23,35 @@
                 </button>
             </div>
         </div>
-        <div class="container"></div>
+        <div class="container">
+            <div class="form">
+                <div class="radios">
+                    <input type="radio" name="fav_language" value="relObra" />
+                    <label for="relObra">Relatório de Obra</label><br />
+                    <input type="radio" name="fav_language" value="acidente" />
+                    <label for="acidente">Acidente de carro</label><br />
+                    <input type="radio" name="fav_language" value="desliz" />
+                    <label for="deslizamento">Deslizamentos</label> <br />
+                    <input type="radio" name="fav_language" value="alag" />
+                    <label for="alagamento">Alagamento</label> <br />
+                    <input type="radio" name="fav_language" value="Outro" />
+                    <label for="alagamento">Outro</label> <br />
+                </div>
+                <img class="upload" src="./assets/post/upload.jpg" alt="" />
+                <label for="">Comentário</label> <br />
+                <textarea style="width: 100%"></textarea>
+                <button
+                    style="
+                        padding: 0.375rem 0.75rem;
+                        width: fit-content;
+                        align-self: end;
+                    "
+                    onclick="window.location.href = './cadastro.html'"
+                >
+                    Enviar
+                </button>
+            </div>
+        </div>
         <ul class="bottom-navbar">
             <li class="icon icon-forum">
                 <div class="indicator" data-dst="mensagem.html">
