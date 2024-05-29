@@ -81,6 +81,10 @@ body {
     border-radius: 0 var(--border-radius) var(--border-radius) 0;
 }
 
+.header-text {
+    align-items: center;
+}
+
 .notif-container {
     width: 15%;
     position: relative;
