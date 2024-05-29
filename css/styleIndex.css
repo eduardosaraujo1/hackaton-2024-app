@@ -16,8 +16,11 @@
 }
 
 .situacoes-container {
+    display: flex;
+    flex-direction: column;
     flex: 1;
     padding: 0 1rem;
+    gap: 1rem;
 }
 
 .background-situacao {
@@ -54,6 +57,7 @@
 
 .local-situacao {
     display: flex;
+    gap: 4px;
     align-items: center;
 }
 
@@ -65,4 +69,23 @@
 
 .local-situacao-text {
     color: #828f9c;
+}
+
+.nome-pessoa {
+    color: #000;
+    font-size: 1.4em;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.dados-situacao .comentario {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.situacoes-container .wrapper {
+    overflow-y: scroll;
+    height: 100%;
 }
