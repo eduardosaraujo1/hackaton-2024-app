@@ -26,13 +26,13 @@
             <img class="imagem" src="./assets/cadastro/user.png" alt="" />
             <div class="form">
                 Nome: <br />
-                <input type="text" /> <br />
+                <input id="nome" type="text" /> <br />
                 CPF: <br />
-                <input type="text" /> <br />
+                <input id="cpf" type="text" /> <br />
                 Senha: <br />
-                <input type="password" /> <br />
+                <input id="senha" type="password" /> <br />
                 Repetir Senha: <br />
-                <input type="password" /> <br />
+                <input id="senhaRepetir" type="password" /> <br />
                 <div class="fix-checkbox">
                     <input type="checkbox" />
                     Concordo com as políticas de privacidade e termos de uso do
@@ -40,6 +40,7 @@
                 </div>
 
                 <button
+                    id="enviar"
                     style="
                         padding: 0.375rem 0.75rem;
                         width: fit-content;
@@ -52,6 +53,6 @@
             </div>
         </div>
 
-        <script></script>
+        <script src="./js/cadastro.js"></script>
     </body>
 </html>
