@@ -12,7 +12,8 @@ body,
     background-color: white;
 }
 
-.header-container {
+.header-container,
+.header-text {
     color: #0e3d68;
     background-color: white;
 }
@@ -64,4 +65,11 @@ body,
     display: flex;
     flex-direction: column;
     gap: 24px;
+}
+
+.header-container {
+    --border-radius: 20px;
+    display: flex;
+    flex: 1;
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
 }

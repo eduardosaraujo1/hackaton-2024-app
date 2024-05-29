@@ -26,6 +26,15 @@ function addEventButtons() {
             window.location.href = `./${b.dataset.dst}`;
         });
     }
+    const notifications = document.querySelector('.notifications');
+    notifications.addEventListener('click', () => {
+        window.location.href = `./notificacoes.html`;
+    });
+
+    const ntfctnBckArrw = document.querySelector('.notification-back-arrow');
+    ntfctnBckArrw.addEventListener('click', () => {
+        window.location.href = `./index.html`;
+    });
 }
 
 function onLoad() {
