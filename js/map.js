@@ -63,16 +63,16 @@ function renderMockIcons() {
         ),
     };
 
-    markers.obras.src = '../assets/markers/obras.png';
-    markers.acidente.src = '../assets/markers/acidente.png';
-    markers.alagamento.src = '../assets/markers/alagamento.png';
-    markers.deslizamento.src = '../assets/markers/deslizamento.png';
-    markers.outro.src = '../assets/markers/outros.png';
-    markers.outro2.src = '../assets/markers/outros.png';
-    markers.acidente2.src = '../assets/markers/acidente.png';
-    markers.alagamento2.src = '../assets/markers/alagamento.png';
-    markers.obras2.src = '../assets/markers/obras.png';
-    markers.deslizamento2.src = '../assets/markers/deslizamento.png';
+    markers.obras.src = './assets/markers/obras.png';
+    markers.acidente.src = './assets/markers/acidente.png';
+    markers.alagamento.src = './assets/markers/alagamento.png';
+    markers.deslizamento.src = './assets/markers/deslizamento.png';
+    markers.outro.src = './assets/markers/outros.png';
+    markers.outro2.src = './assets/markers/outros.png';
+    markers.acidente2.src = './assets/markers/acidente.png';
+    markers.alagamento2.src = './assets/markers/alagamento.png';
+    markers.obras2.src = './assets/markers/obras.png';
+    markers.deslizamento2.src = './assets/markers/deslizamento.png';
 }
 
 function load() {
