@@ -33,4 +33,4 @@ function onLoad() {
     addEventButtons();
 }
 
-document.addEventListener('DOMContentLoaded', onLoad);
+onLoad();
