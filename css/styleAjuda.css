@@ -1,2 +1,43 @@
 @import url('./style.css');
 @import url('./styleNav.css');
+
+.container-orientacao.active {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0.75rem;
+    height: 100%;
+    gap: 0.75rem;
+}
+
+.container-orientacao {
+    display: none;
+}
+
+.orientacao-text {
+    padding-top: 20%;
+}
+
+.orientacao-text {
+    color: #0e3d68;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.orientacao-header {
+    color: #0e3d68;
+    font-size: 1.9em;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.nav-arrows {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow-left svg,
+.arrow-right svg {
+    color: black;
+    width: 48px;
+    height: 48px;
+}
