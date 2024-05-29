@@ -1,0 +1,67 @@
+@import url('./style.css');
+@import url('./styleNav.css');
+
+body,
+.container {
+    background-color: #0e3d68;
+}
+
+.header-container svg {
+    width: 48px;
+    color: #0e3d68;
+    background-color: white;
+}
+
+.header-container {
+    color: #0e3d68;
+    background-color: white;
+}
+
+.notificacao {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.local-notificacao {
+    display: flex;
+    align-items: center;
+}
+
+.local-text {
+    color: var(--Gray, #828f9c);
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 0.8em;
+}
+
+.dados-notificacao {
+    display: flex;
+    padding: 0px 22px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.dados-notificacao {
+    border-radius: 30px;
+    background: #d9d9d9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.tipo-notificacao {
+    color: #000;
+    font-family: 'DM Sans';
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.258px;
+}
+
+.wrapper-notificacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}

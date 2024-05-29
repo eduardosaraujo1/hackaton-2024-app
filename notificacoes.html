@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mapa</title>
+        <link rel="stylesheet" href="./css/styleNotificacoes.css" />
+    </head>
+    <body>
+        <div class="header">
+            <div class="header-container">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 -960 960 960"
+                    fill="currentColor"
+                >
+                    <path
+                        d="M400-240 160-480l240-240 56 58-142 142h486v80H314l142 142-56 58Z"
+                    />
+                </svg>
+                <span class="header-text">Notificações</span>
+            </div>
+            <div class="notifications">
+                <button class="notification-btn">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="#5f6368"
+                        viewBox="0 0 24 24"
+                    >
+                        <path
+                            fill="currentColor"
+                            fill-rule="evenodd"
+                            d="M12 1a2 2 0 0 0-1.98 2.284A7.003 7.003 0 0 0 5 10v8H4a1 1 0 1 0 0 2h16a1 1 0 1 0 0-2h-1v-8a7.003 7.003 0 0 0-5.02-6.716A2 2 0 0 0 12 1m2 21a1 1 0 0 1-1 1h-2a1 1 0 1 1 0-2h2a1 1 0 0 1 1 1"
+                            clip-rule="evenodd"
+                        />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="wrapper-notificacoes">
+                <div class="notificacao">
+                    <div class="local-notificacao">
+                        <div class="local-icon">
+                            <!-- <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                height="24px"
+                                viewBox="0 -960 960 960"
+                                width="24px"
+                                fill="#e8eaed"
+                            >
+                                <path
+                                    d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"
+                                />
+                            </svg> -->
+                            <svg
+                                width="24px"
+                                height="24px"
+                                viewBox="0 0 11 10"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M5.33224 5.59582C6.09792 5.59582 6.71862 5.01379 6.71862 4.29582C6.71862 3.57785 6.09792 2.99582 5.33224 2.99582C4.56656 2.99582 3.94586 3.57785 3.94586 4.29582C3.94586 5.01379 4.56656 5.59582 5.33224 5.59582Z"
+                                    fill="white"
+                                />
+                                <path
+                                    d="M1.60854 3.53751C2.48391 -0.0708221 8.18495 -0.0666553 9.05588 3.54168C9.56689 5.65834 8.16273 7.45001 6.93188 8.55834C6.03873 9.36668 4.62569 9.36668 3.7281 8.55834C2.50169 7.45001 1.09754 5.65418 1.60854 3.53751Z"
+                                    fill="#828F9C"
+                                />
+                                <circle cx="5" cy="4.5" r="1" fill="#FAF9F9" />
+                            </svg>
+                        </div>
+                        <span class="local-text"
+                            >754 Av. Gov. Mário Covas Júnior</span
+                        >
+                    </div>
+                    <div class="dados-notificacao">
+                        <span class="tipo-notificacao">Acidente</span>
+                        <span class="descricao-notificacao"
+                            >um acidente perto de você!</span
+                        >
+                    </div>
+                </div>
+                <div class="notificacao">
+                    <div class="local-notificacao">
+                        <div class="local-icon">
+                            <!-- <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                height="24px"
+                                viewBox="0 -960 960 960"
+                                width="24px"
+                                fill="#e8eaed"
+                            >
+                                <path
+                                    d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"
+                                />
+                            </svg> -->
+                            <svg
+                                width="24px"
+                                height="24px"
+                                viewBox="0 0 11 10"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M5.33224 5.59582C6.09792 5.59582 6.71862 5.01379 6.71862 4.29582C6.71862 3.57785 6.09792 2.99582 5.33224 2.99582C4.56656 2.99582 3.94586 3.57785 3.94586 4.29582C3.94586 5.01379 4.56656 5.59582 5.33224 5.59582Z"
+                                    fill="white"
+                                />
+                                <path
+                                    d="M1.60854 3.53751C2.48391 -0.0708221 8.18495 -0.0666553 9.05588 3.54168C9.56689 5.65834 8.16273 7.45001 6.93188 8.55834C6.03873 9.36668 4.62569 9.36668 3.7281 8.55834C2.50169 7.45001 1.09754 5.65418 1.60854 3.53751Z"
+                                    fill="#828F9C"
+                                />
+                                <circle cx="5" cy="4.5" r="1" fill="#FAF9F9" />
+                            </svg>
+                        </div>
+                        <span class="local-text"
+                            >754 Av. Gov. Mário Covas Júnior</span
+                        >
+                    </div>
+                    <div class="dados-notificacao">
+                        <span class="tipo-notificacao">Acidente</span>
+                        <span class="descricao-notificacao"
+                            >um acidente perto de você!</span
+                        >
+                    </div>
+                </div>
+                <div class="notificacao">
+                    <div class="dados-notificacao">
+                        <span class="tipo-notificacao">Maré Alta</span>
+                        <span class="descricao-notificacao"
+                            >Cuidado ao ir à praia</span
+                        >
+                    </div>
+                </div>
+                <div class="notificacao">
+                    <div class="local-notificacao">
+                        <div class="local-icon">
+                            <svg
+                                width="24px"
+                                height="24px"
+                                viewBox="0 0 11 10"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M5.33224 5.59582C6.09792 5.59582 6.71862 5.01379 6.71862 4.29582C6.71862 3.57785 6.09792 2.99582 5.33224 2.99582C4.56656 2.99582 3.94586 3.57785 3.94586 4.29582C3.94586 5.01379 4.56656 5.59582 5.33224 5.59582Z"
+                                    fill="white"
+                                />
+                                <path
+                                    d="M1.60854 3.53751C2.48391 -0.0708221 8.18495 -0.0666553 9.05588 3.54168C9.56689 5.65834 8.16273 7.45001 6.93188 8.55834C6.03873 9.36668 4.62569 9.36668 3.7281 8.55834C2.50169 7.45001 1.09754 5.65418 1.60854 3.53751Z"
+                                    fill="#828F9C"
+                                />
+                                <circle cx="5" cy="4.5" r="1" fill="#FAF9F9" />
+                            </svg>
+                        </div>
+                        <span class="local-text"
+                            >754 Av. Gov. Mário Covas Júnior</span
+                        >
+                    </div>
+                    <div class="dados-notificacao">
+                        <span class="tipo-notificacao">Obra</span>
+                        <span class="descricao-notificacao"
+                            >Obra em andamento na avenida</span
+                        >
+                    </div>
+                </div>
+                <div class="notificacao">
+                    <div class="local-notificacao">
+                        <div class="local-icon">
+                            <svg
+                                width="24px"
+                                height="24px"
+                                viewBox="0 0 11 10"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M5.33224 5.59582C6.09792 5.59582 6.71862 5.01379 6.71862 4.29582C6.71862 3.57785 6.09792 2.99582 5.33224 2.99582C4.56656 2.99582 3.94586 3.57785 3.94586 4.29582C3.94586 5.01379 4.56656 5.59582 5.33224 5.59582Z"
+                                    fill="white"
+                                />
+                                <path
+                                    d="M1.60854 3.53751C2.48391 -0.0708221 8.18495 -0.0666553 9.05588 3.54168C9.56689 5.65834 8.16273 7.45001 6.93188 8.55834C6.03873 9.36668 4.62569 9.36668 3.7281 8.55834C2.50169 7.45001 1.09754 5.65418 1.60854 3.53751Z"
+                                    fill="#828F9C"
+                                />
+                                <circle cx="5" cy="4.5" r="1" fill="#FAF9F9" />
+                            </svg>
+                        </div>
+                        <span class="local-text"
+                            >754 Av. Gov. Mário Covas Júnior</span
+                        >
+                    </div>
+                    <div class="dados-notificacao">
+                        <span class="tipo-notificacao">Deslizamento</span>
+                        <span class="descricao-notificacao"
+                            >Procure um local seguro!</span
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="bottom-navbar">
+            <li class="icon icon-forum">
+                <div class="indicator" data-dst="mensagem.html">
+                    <svg xmlns="http://www.w3.org/2000/svg">
+                        <circle r="3" cx="50%" cy="50%" fill="black" />
+                    </svg>
+                </div>
+                <div class="logo">
+                    <img src="./assets/mensagem.png" alt="" />
+                </div>
+            </li>
+            <li class="icon icon-emergencia">
+                <div class="indicator" data-dst="emergencia.html">
+                    <svg xmlns="http://www.w3.org/2000/svg">
+                        <circle r="3" cx="50%" cy="50%" fill="black" />
+                    </svg>
+                </div>
+                <div class="logo">
+                    <img src="./assets/emergencia.png" alt="" />
+                </div>
+            </li>
+            <li class="icon icon-home">
+                <div class="indicator" data-dst="index.html">
+                    <svg xmlns="http://www.w3.org/2000/svg">
+                        <circle r="3" cx="50%" cy="50%" fill="black" />
+                    </svg>
+                </div>
+                <div class="logo">
+                    <img src="./assets/home.png" alt="" />
+                </div>
+            </li>
+            <li class="icon icon-map">
+                <div class="indicator" data-dst="mapa.html">
+                    <svg xmlns="http://www.w3.org/2000/svg">
+                        <circle r="3" cx="50%" cy="50%" fill="black" />
+                    </svg>
+                </div>
+                <div class="logo">
+                    <img src="./assets/mapa.png" alt="" />
+                </div>
+            </li>
+            <li class="icon icon-orientacoes">
+                <div class="indicator" data-dst="ajuda.html">
+                    <svg xmlns="http://www.w3.org/2000/svg">
+                        <circle r="3" cx="50%" cy="50%" fill="black" />
+                    </svg>
+                </div>
+                <div class="logo">
+                    <img src="./assets/orientacoes.svg" alt="" />
+                </div>
+            </li>
+        </ul>
+        <script src="./js/navbar.js"></script>
+    </body>
+</html>
